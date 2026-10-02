@@ -1,4 +1,5 @@
 1. Comentário do Texto 1:
+   
     Trabalhar com programação, um ofício ainda não regulado, me parece se assemelhar com a prática de um escritor. Não apenas no escrever literal que se faz do código, mas no sentido de que qualquer um pode fazê-lo. A literatura produzida, no entanto, vai depender de qualidades técnicas, da sensibilidade e criatividade da pessoa que a produz. 
 A diferença principal, ao meu ver, se dá no intuito da escrita. Um "Escritor de Código" escreve manuais de instrução para um público que não irá reagir emocionalmente ao texto. No processo da escrita, a aplicação de um método de trabalho permite constante teste e revisão do texto (lê-se código), até que o leitor (máquina) entenda e cumpra o objetivo do escritor.
 As grandes empresas de software (ou editoras?) acumulam talentos que produzem códigos de altíssima qualidade. A qualidade desse código, porém, não vem apenas do habilidade do programador. Ela está no sucesso do método usado por aquela empresa. Ideia, lógica, código, teste, revisão, e o ciclo segue. Quase como uma cozinha desenvolvendo um novo menu.
@@ -13,6 +14,7 @@ A compreensão deste cenário é fundamental no repertório de qualquer pessoa q
 ---
 
 3. Trade Offs:
+
     1) Velocidade de Entrega vs. Qualidade do Código
        Provavelmente um dos Tradeoffs mais universais entre as áreas do conhecimento de forma geral. Uma entrega bem feita costuma ser oposta a uma entrega feita às pressas. Mas, por definição, o tradeoff é um sacrifício em troca de um benefício. Portanto, se a prioridade é que algo seja entregue urgentemente, faz sentido que a qualidade - que implica revisão, detalhismo, cuidado, atenção e, portanto, tempo - seja sacrificada.
     2) Espaço-Tempo - Re-renderizar vs Armazenar
@@ -21,9 +23,11 @@ A compreensão deste cenário é fundamental no repertório de qualquer pessoa q
        Este caso traz uma escolha entre ter os dados sempre atualizados, mas temporariamente indisponíveis dada a necessidade de atualização, ou sempre disponíveis, porém temporariamente desatualizados. Se um sistema depende obrigatoriamente da disponibilidade de dados, a atualização desses se torna um evento que requer planejamento e cuidado. Agora, se o compromisso é para com dados precisos, é melhor que eles estejam temporariamente indisponíveis a divulgar ou utilizar dados falsos.
 ---
 
-4. Minha contribuição no PI foi dividida em frentes. Minha user story inicial era a de fazer com que o bot conseguisse pegar coordenadas dos endereços do CSV, buscá-las em um mapa e enviar essa localização usando a ferramenta nativa do Telegram de enviar localização. Além disso, participei ativamente das reuniões de discussão de escopo do projeto, lógica geral do código e quais escolhas seriam essenciais para nosso produto. Também fui responsável por resolver bugs de loop do localizador e das respostas do Bot.
+4. Minha Contribuição na API:
 
-5.  
-6. 3 tipos de trade off
-7. minha contribuicao na api
-8. o que aprendi com item 4
+   Minha contribuição no PI foi dividida em frentes. Minha user story inicial era a de fazer com que o bot conseguisse pegar coordenadas dos endereços do CSV, buscá-las em um mapa e enviar essa localização usando a ferramenta nativa do Telegram de enviar localização. Além disso, participei ativamente das reuniões de discussão de escopo do projeto, lógica geral do código e quais escolhas seriam essenciais para nosso produto. Também fui responsável por integrar o código que extrai coordenadas (feita por um colega), resolver bugs de loop do localizador e das respostas do Bot.
+---
+
+5. O Que Aprendi na API:
+
+   Além de entender como funciona a produção de um código com mais de uma pessoa envolvida, aprendi a usar pesquisar e entender novas bibliotecas (como o DSPy, o OpenStreetMaps, etc) entendi como testar e encontrar problemas (de grau relativamente simples) no código e também a verificar se sua lógica está fazendo sentido. Além do aprendizado coletivo de comunicação e colaboração, aprendi a confiar na minha capacidade de pesquisar e encontrar soluções para problemas que eu nem conhecia.
