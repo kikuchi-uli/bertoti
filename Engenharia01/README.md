@@ -25,9 +25,11 @@ A compreensão deste cenário é fundamental no repertório de qualquer pessoa q
 
 4. Minha Contribuição na API:
 
-   Minha contribuição no PI foi dividida em frentes. Minha user story inicial era a de fazer com que o bot conseguisse pegar coordenadas dos endereços do CSV, buscá-las em um mapa e enviar essa localização usando a ferramenta nativa do Telegram de enviar localização. Além disso, participei ativamente das reuniões de discussão de escopo do projeto, lógica geral do código e quais escolhas seriam essenciais para nosso produto. Também fui responsável por integrar o código que extrai coordenadas (feita por um colega), resolver bugs de loop do localizador e das respostas do Bot.
+   Minha contribuição na Sprint 1 foi dividida em frentes. Minha user story inicial era a de fazer com que o bot conseguisse pegar coordenadas dos endereços do CSV, buscá-las em um mapa e enviar essa localização usando a ferramenta nativa do Telegram de enviar localização. Além disso, participei ativamente das reuniões de discussão de escopo do projeto, lógica geral do código e quais escolhas seriam essenciais para nosso produto. Também fui responsável por integrar algumas partes do código que não mesclaram automaticamente, como resolver bugs de loop do localizador e das respostas do Bot.
+   Na Sprint 2, fui responsável por trabalhar a função de guardar os filtros mais pesquisados. Nessa sprint também senti que minha visão do projeto expandiu, assim como minha visão da produção. Pude fazer questionamentos mais pertinentes, que ajudaram a guiar o projeto em discussões com minha equipe.
 ---
 
 5. O Que Aprendi na API:
 
-   Além de entender como funciona a produção de um código com mais de uma pessoa envolvida, aprendi a usar pesquisar e entender novas bibliotecas (como o DSPy, o OpenStreetMaps, etc) entendi como testar e encontrar problemas (de grau relativamente simples) no código e também a verificar se sua lógica está fazendo sentido. Além do aprendizado coletivo de comunicação e colaboração, aprendi a confiar na minha capacidade de pesquisar e encontrar soluções para problemas que eu nem conhecia.
+   Além de entender como funciona a produção de um código com mais de uma pessoa envolvida, aprendi a usar pesquisar e entender novas bibliotecas (como o DSPy, o OpenStreetMaps, JSON, etc) entendi como testar e encontrar problemas no código e também a verificar se sua lógica está fazendo sentido, além de documentar cada passo. Junto com o aprendizado coletivo de comunicação e colaboração, pude confiar na minha capacidade de pesquisar e encontrar soluções para problemas que era novidade para mim.
+   Acredito que aprendi, mais do que a parte técnica, como me organizar e comunicar de forma eficaz minhas dúvidas. 
